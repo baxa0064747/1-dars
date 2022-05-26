@@ -362,6 +362,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 main {
@@ -390,7 +391,64 @@ img {
 }
 
 .container {
+  width: 1392px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.site-header {
+  background-color: #49BCF1;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 46px 0;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__item {
+  list-style-type: none;
+}
+
+.header__item + .header__item {
+  margin-left: 47px;
+}
+
+.header__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link {
+  width: 140px;
+  padding: 16px 30px 15px 30px;
+  background: #FFFFFF;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #24303E;
+}
+
+.link:hover {
+  background-color: #fff;
+  opacity: 0.25;
 }
 /*# sourceMappingURL=main.css.map */
